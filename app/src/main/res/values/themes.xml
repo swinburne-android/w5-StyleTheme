@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StyleTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/black</item>
+
+    </style>
+
+    <style name="Theme.StyleTheme" parent="Base.Theme.StyleTheme" />
+
+
+    <!-- add a background to my texts . this can be individually applied-->
+    <style name="MyTextBackground">
+        <item name="android:background">@color/red</item>
+    </style>
+
+
+</resources>

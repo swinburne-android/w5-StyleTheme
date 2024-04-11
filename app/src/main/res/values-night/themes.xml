@@ -1,0 +1,19 @@
+<!-- this has the same name as the normal theme. change theme on the phone and this is enabled -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StyleTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+
+    <style name="Theme.StyleTheme" parent="Base.Theme.StyleTheme" />
+
+    <style name="MyTextBackground">
+        <item name="android:background">@color/green</item>
+    </style>
+
+
+</resources>
